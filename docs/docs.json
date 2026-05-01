@@ -1481,22 +1481,22 @@
         "language": "zh-Hans",
         "tabs": [
           {
-            "tab": "\u5feb\u901f\u5f00\u59cb",
+            "tab": "快速开始",
             "groups": [
               {
-                "group": "\u9996\u9875",
+                "group": "首页",
                 "pages": ["zh-CN/index"]
               },
               {
-                "group": "\u6982\u89c8",
+                "group": "概览",
                 "pages": ["zh-CN/start/showcase"]
               },
               {
-                "group": "\u6838\u5fc3\u6982\u5ff5",
+                "group": "核心概念",
                 "pages": ["zh-CN/concepts/features"]
               },
               {
-                "group": "\u7b2c\u4e00\u6b65",
+                "group": "第一步",
                 "pages": [
                   "zh-CN/start/getting-started",
                   "zh-CN/start/wizard",
@@ -1504,20 +1504,20 @@
                 ]
               },
               {
-                "group": "\u6307\u5357",
+                "group": "指南",
                 "pages": ["zh-CN/start/openclaw"]
               }
             ]
           },
           {
-            "tab": "\u5b89\u88c5",
+            "tab": "安装",
             "groups": [
               {
-                "group": "\u5b89\u88c5\u6982\u89c8",
+                "group": "安装概览",
                 "pages": ["zh-CN/install/index", "zh-CN/install/installer"]
               },
               {
-                "group": "\u5b89\u88c5\u65b9\u5f0f",
+                "group": "安装方式",
                 "pages": [
                   "zh-CN/install/docker",
                   "zh-CN/install/nix",
@@ -1526,7 +1526,7 @@
                 ]
               },
               {
-                "group": "\u7ef4\u62a4",
+                "group": "维护",
                 "pages": [
                   "zh-CN/install/updating",
                   "zh-CN/install/migrating",
@@ -1534,7 +1534,7 @@
                 ]
               },
               {
-                "group": "\u6258\u7ba1\u4e0e\u90e8\u7f72",
+                "group": "托管与部署",
                 "pages": [
                   "zh-CN/vps",
                   "zh-CN/install/fly",
@@ -1548,20 +1548,20 @@
                 ]
               },
               {
-                "group": "\u9ad8\u7ea7",
+                "group": "高级",
                 "pages": ["zh-CN/install/development-channels"]
               }
             ]
           },
           {
-            "tab": "\u6d88\u606f\u6e20\u9053",
+            "tab": "消息渠道",
             "groups": [
               {
-                "group": "\u6982\u89c8",
+                "group": "概览",
                 "pages": ["zh-CN/channels/index"]
               },
               {
-                "group": "\u6d88\u606f\u5e73\u53f0",
+                "group": "消息平台",
                 "pages": [
                   "zh-CN/channels/bluebubbles",
                   "zh-CN/channels/discord",
@@ -1586,7 +1586,7 @@
                 ]
               },
               {
-                "group": "\u914d\u7f6e",
+                "group": "配置",
                 "pages": [
                   "zh-CN/channels/pairing",
                   "zh-CN/channels/group-messages",
@@ -1600,10 +1600,10 @@
             ]
           },
           {
-            "tab": "\u4ee3\u7406",
+            "tab": "代理",
             "groups": [
               {
-                "group": "\u57fa\u7840",
+                "group": "基础",
                 "pages": [
                   "zh-CN/pi",
                   "zh-CN/concepts/architecture",
@@ -1616,11 +1616,11 @@
                 ]
               },
               {
-                "group": "\u5f15\u5bfc",
+                "group": "引导",
                 "pages": ["zh-CN/start/bootstrapping"]
               },
               {
-                "group": "\u4f1a\u8bdd\u4e0e\u8bb0\u5fc6",
+                "group": "会话与记忆",
                 "pages": [
                   "zh-CN/concepts/session",
                   "zh-CN/concepts/session-pruning",
@@ -1630,11 +1630,11 @@
                 ]
               },
               {
-                "group": "\u591a\u4ee3\u7406",
+                "group": "多代理",
                 "pages": ["zh-CN/concepts/multi-agent", "zh-CN/concepts/presence"]
               },
               {
-                "group": "\u6d88\u606f\u4e0e\u6295\u9012",
+                "group": "消息与投递",
                 "pages": [
                   "zh-CN/concepts/messages",
                   "zh-CN/concepts/streaming",
@@ -1645,14 +1645,14 @@
             ]
           },
           {
-            "tab": "\u5de5\u5177",
+            "tab": "工具",
             "groups": [
               {
-                "group": "\u6982\u89c8",
+                "group": "概览",
                 "pages": ["zh-CN/tools/index"]
               },
               {
-                "group": "\u5185\u7f6e\u5de5\u5177",
+                "group": "内置工具",
                 "pages": [
                   "zh-CN/tools/apply-patch",
                   "zh-CN/brave-search",
@@ -1669,7 +1669,7 @@
                 ]
               },
               {
-                "group": "\u6d4f\u89c8\u5668",
+                "group": "浏览器",
                 "pages": [
                   "zh-CN/tools/browser",
                   "zh-CN/tools/browser-login",
@@ -1677,7 +1677,7 @@
                 ]
               },
               {
-                "group": "\u4ee3\u7406\u534f\u4f5c",
+                "group": "代理协作",
                 "pages": [
                   "zh-CN/tools/agent-send",
                   "zh-CN/tools/subagents",
@@ -1685,7 +1685,7 @@
                 ]
               },
               {
-                "group": "\u6280\u80fd",
+                "group": "技能",
                 "pages": [
                   "zh-CN/tools/creating-skills",
                   "zh-CN/tools/slash-commands",
@@ -1696,7 +1696,7 @@
                 ]
               },
               {
-                "group": "\u6269\u5c55",
+                "group": "扩展",
                 "pages": [
                   "zh-CN/plugins/architecture",
                   "zh-CN/plugins/voice-call",
@@ -1707,7 +1707,7 @@
                 ]
               },
               {
-                "group": "\u81ea\u52a8\u5316",
+                "group": "自动化",
                 "pages": [
                   "zh-CN/automation/hooks",
                   "zh-CN/automation/cron-jobs",
@@ -1720,7 +1720,7 @@
                 ]
               },
               {
-                "group": "\u5a92\u4f53\u4e0e\u8bbe\u5907",
+                "group": "媒体与设备",
                 "pages": [
                   "zh-CN/nodes/index",
                   "zh-CN/nodes/troubleshooting",
@@ -1737,22 +1737,22 @@
             ]
           },
           {
-            "tab": "\u6a21\u578b",
+            "tab": "模型",
             "groups": [
               {
-                "group": "\u6982\u89c8",
+                "group": "概览",
                 "pages": ["zh-CN/providers/index", "zh-CN/providers/models"]
               },
               {
-                "group": "\u6a21\u578b\u6982\u5ff5",
+                "group": "模型概念",
                 "pages": ["zh-CN/concepts/models"]
               },
               {
-                "group": "\u914d\u7f6e",
+                "group": "配置",
                 "pages": ["zh-CN/concepts/model-providers", "zh-CN/concepts/model-failover"]
               },
               {
-                "group": "\u63d0\u4f9b\u5546",
+                "group": "提供商",
                 "pages": [
                   "zh-CN/providers/anthropic",
                   "zh-CN/providers/bedrock",
@@ -1778,10 +1778,10 @@
             ]
           },
           {
-            "tab": "\u5e73\u53f0",
+            "tab": "平台",
             "groups": [
               {
-                "group": "\u5e73\u53f0\u6982\u89c8",
+                "group": "平台概览",
                 "pages": [
                   "zh-CN/platforms/index",
                   "zh-CN/platforms/macos",
@@ -1795,7 +1795,7 @@
                 ]
               },
               {
-                "group": "macOS \u914d\u5957\u5e94\u7528",
+                "group": "macOS 配套应用",
                 "pages": [
                   "zh-CN/platforms/mac/dev-setup",
                   "zh-CN/platforms/mac/menu-bar",
@@ -1819,14 +1819,14 @@
             ]
           },
           {
-            "tab": "\u7f51\u5173\u4e0e\u8fd0\u7ef4",
+            "tab": "网关与运维",
             "groups": [
               {
-                "group": "\u7f51\u5173",
+                "group": "网关",
                 "pages": [
                   "zh-CN/gateway/index",
                   {
-                    "group": "\u914d\u7f6e\u4e0e\u8fd0\u7ef4",
+                    "group": "配置与运维",
                     "pages": [
                       "zh-CN/gateway/configuration",
                       "zh-CN/gateway/configuration-examples",
@@ -1842,7 +1842,7 @@
                     ]
                   },
                   {
-                    "group": "\u5b89\u5168\u4e0e\u6c99\u7bb1",
+                    "group": "安全与沙箱",
                     "pages": [
                       "zh-CN/gateway/security/index",
                       "zh-CN/gateway/sandboxing",
@@ -1850,7 +1850,7 @@
                     ]
                   },
                   {
-                    "group": "\u534f\u8bae\u4e0e API",
+                    "group": "协议与 API",
                     "pages": [
                       "zh-CN/gateway/protocol",
                       "zh-CN/gateway/bridge-protocol",
@@ -1862,7 +1862,7 @@
                     ]
                   },
                   {
-                    "group": "\u7f51\u7edc\u4e0e\u53d1\u73b0",
+                    "group": "网络与发现",
                     "pages": [
                       "zh-CN/gateway/network-model",
                       "zh-CN/gateway/pairing",
@@ -1873,7 +1873,7 @@
                 ]
               },
               {
-                "group": "\u8fdc\u7a0b\u8bbf\u95ee",
+                "group": "远程访问",
                 "pages": [
                   "zh-CN/gateway/remote",
                   "zh-CN/gateway/remote-gateway-readme",
@@ -1881,15 +1881,15 @@
                 ]
               },
               {
-                "group": "\u8fd0\u7ef4\u4e13\u9898",
+                "group": "运维专题",
                 "pages": ["zh-CN/network", "zh-CN/logging"]
               },
               {
-                "group": "\u5b89\u5168",
+                "group": "安全",
                 "pages": ["zh-CN/security/formal-verification"]
               },
               {
-                "group": "Web \u754c\u9762",
+                "group": "Web 界面",
                 "pages": [
                   "zh-CN/web/index",
                   "zh-CN/web/control-ui",
@@ -1901,10 +1901,10 @@
             ]
           },
           {
-            "tab": "\u53c2\u8003",
+            "tab": "参考",
             "groups": [
               {
-                "group": "CLI \u547d\u4ee4",
+                "group": "CLI 命令",
                 "pages": [
                   "zh-CN/cli/index",
                   "zh-CN/cli/acp",
@@ -1950,11 +1950,11 @@
                 ]
               },
               {
-                "group": "RPC \u4e0e API",
+                "group": "RPC 与 API",
                 "pages": ["zh-CN/reference/rpc", "zh-CN/reference/device-models"]
               },
               {
-                "group": "\u6a21\u677f",
+                "group": "模板",
                 "pages": [
                   "zh-CN/reference/AGENTS.default",
                   "zh-CN/reference/templates/AGENTS",
@@ -1968,7 +1968,7 @@
                 ]
               },
               {
-                "group": "\u6280\u672f\u53c2\u8003",
+                "group": "技术参考",
                 "pages": [
                   "zh-CN/reference/wizard",
                   "zh-CN/reference/token-use",
@@ -1978,7 +1978,7 @@
                 ]
               },
               {
-                "group": "\u6982\u5ff5\u5185\u90e8\u673a\u5236",
+                "group": "概念内部机制",
                 "pages": [
                   "zh-CN/concepts/typebox",
                   "zh-CN/concepts/markdown-formatting",
@@ -1988,28 +1988,28 @@
                 ]
               },
               {
-                "group": "\u9879\u76ee",
+                "group": "项目",
                 "pages": ["zh-CN/reference/credits"]
               },
               {
-                "group": "\u53d1\u5e03\u7b56\u7565",
+                "group": "发布策略",
                 "pages": ["zh-CN/reference/RELEASING", "zh-CN/reference/test"]
               }
             ]
           },
           {
-            "tab": "\u5e2e\u52a9",
+            "tab": "帮助",
             "groups": [
               {
-                "group": "\u5e2e\u52a9",
+                "group": "帮助",
                 "pages": ["zh-CN/help/index", "zh-CN/help/troubleshooting", "zh-CN/help/faq"]
               },
               {
-                "group": "\u793e\u533a",
+                "group": "社区",
                 "pages": ["zh-CN/start/lore"]
               },
               {
-                "group": "\u73af\u5883\u4e0e\u8c03\u8bd5",
+                "group": "环境与调试",
                 "pages": [
                   "zh-CN/help/environment",
                   "zh-CN/help/debugging",
@@ -2020,19 +2020,19 @@
                 ]
               },
               {
-                "group": "Node \u8fd0\u884c\u65f6",
+                "group": "Node 运行时",
                 "pages": ["zh-CN/install/node"]
               },
               {
-                "group": "\u538b\u7f29\u673a\u5236\u5185\u90e8\u53c2\u8003",
+                "group": "压缩机制内部参考",
                 "pages": ["zh-CN/reference/session-management-compaction"]
               },
               {
-                "group": "\u5f00\u53d1\u8005\u8bbe\u7f6e",
+                "group": "开发者设置",
                 "pages": ["zh-CN/start/setup", "zh-CN/pi-dev"]
               },
               {
-                "group": "\u6587\u6863\u5143\u4fe1\u606f",
+                "group": "文档元信息",
                 "pages": ["zh-CN/start/hubs", "zh-CN/start/docs-directory", "zh-CN/AGENTS"]
               }
             ]
@@ -2043,14 +2043,14 @@
         "language": "ja",
         "tabs": [
           {
-            "tab": "\u306f\u3058\u3081\u306b",
+            "tab": "はじめに",
             "groups": [
               {
-                "group": "\u6982\u8981",
+                "group": "概要",
                 "pages": ["ja-JP/index"]
               },
               {
-                "group": "\u521d\u56de\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7",
+                "group": "初回セットアップ",
                 "pages": ["ja-JP/start/getting-started", "ja-JP/start/wizard"]
               }
             ]
